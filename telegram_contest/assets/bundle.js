@@ -1227,7 +1227,7 @@
   }
 
   function run() {
-      const chartsFile = 'telegram_contest/assets/chart_data.json';
+      const chartsFile = 'assets/chart_data.json';
       const charts = [];
       loadCharts(chartsFile).then(
           (chartsData) => {
