@@ -1207,7 +1207,7 @@
   }
 
   function run() {
-      const chartsFile = 'chart_data.json';
+      const chartsFile = 'assets/chart_data.json';
       const charts = [];
       loadCharts(chartsFile).then(
           (chartsData) => {
